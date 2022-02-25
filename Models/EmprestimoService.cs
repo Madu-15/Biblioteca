@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
 
+
 namespace Biblioteca.Models
 {
     public class EmprestimoService 
@@ -30,10 +31,34 @@ namespace Biblioteca.Models
             }
         }
 
+
         public ICollection<Emprestimo> ListarTodos(FiltrosEmprestimos filtro)
         {
             using(BibliotecaContext bc = new BibliotecaContext())
             {
+                IQueryable<Emprestimo> query;
+
+                if(filtro != null)
+                {
+                    switch(filtro.TipoFiltro)
+                    {
+                        case "NomeUsuario":
+                        query = bc.Emprestimos.Where(e => e.NomeUsuario.Contains(filtro.Filtro));
+                        break;
+
+                        case "Livro":
+                        query = bc.Emprestimos.Where(e => e.LivroId.Equals(filtro.Filtro));
+                        break;
+
+                        default:
+                          query = bc.Emprestimos;
+                          break;
+                    }
+                }
+                else {
+                    query = bc.Emprestimos;
+                }
+
                 return bc.Emprestimos.Include(e => e.Livro).ToList();
             }
         }
