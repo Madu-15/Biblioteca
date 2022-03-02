@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+qPqPrO19+jDijSRQhBCf0CPCvo6QJ7Ca72bVU3bltiT0SuOE4IFE0v3oJWW9qz/CkT6cQ2wtrZgRtPhBZJaSA==",
+  "dgSpecHash": "X3lY4tGUgGrkxT7s6j3/GWC/CtwmBHWAqb1sltDDeV2a+E4BrnVhN6/o92ccsGywfQpdBWv2PXRBTyqQ8pAGMA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\spsri\\Documents\\Biblioteca\\Biblioteca.csproj",
+  "projectFilePath": "c:\\Users\\spsri\\Documents\\BibliotecaMariaEduardaSouza\\Biblioteca.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\spsri\\.nuget\\packages\\microsoft.csharp\\4.6.0\\microsoft.csharp.4.6.0.nupkg.sha512",
     "C:\\Users\\spsri\\.nuget\\packages\\microsoft.entityframeworkcore\\3.0.0\\microsoft.entityframeworkcore.3.0.0.nupkg.sha512",

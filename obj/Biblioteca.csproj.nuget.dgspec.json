@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\spsri\\Documents\\Biblioteca\\Biblioteca.csproj": {}
+    "c:\\Users\\spsri\\Documents\\BibliotecaMariaEduardaSouza\\Biblioteca.csproj": {}
   },
   "projects": {
-    "C:\\Users\\spsri\\Documents\\Biblioteca\\Biblioteca.csproj": {
+    "c:\\Users\\spsri\\Documents\\BibliotecaMariaEduardaSouza\\Biblioteca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\spsri\\Documents\\Biblioteca\\Biblioteca.csproj",
+        "projectUniqueName": "c:\\Users\\spsri\\Documents\\BibliotecaMariaEduardaSouza\\Biblioteca.csproj",
         "projectName": "Biblioteca",
-        "projectPath": "C:\\Users\\spsri\\Documents\\Biblioteca\\Biblioteca.csproj",
+        "projectPath": "c:\\Users\\spsri\\Documents\\BibliotecaMariaEduardaSouza\\Biblioteca.csproj",
         "packagesPath": "C:\\Users\\spsri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\spsri\\Documents\\Biblioteca\\obj\\",
+        "outputPath": "c:\\Users\\spsri\\Documents\\BibliotecaMariaEduardaSouza\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\spsri\\AppData\\Roaming\\NuGet\\NuGet.Config"
