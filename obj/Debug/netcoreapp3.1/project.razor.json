@@ -14437,6 +14437,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\spsri\\Documents\\BibliotecaMariaEduardaSouza\\Views\\Usuario\\NeedAdmin.cshtml",
+      "TargetPath": "Views\\Usuario\\NeedAdmin.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\spsri\\Documents\\BibliotecaMariaEduardaSouza\\Views\\Usuario\\RegistrarUsuarios.cshtml",
+      "TargetPath": "Views\\Usuario\\RegistrarUsuarios.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\spsri\\Documents\\BibliotecaMariaEduardaSouza\\Views\\Home\\Login.cshtml",
       "TargetPath": "Views\\Home\\Login.cshtml",
       "FileKind": "mvc"
@@ -14472,8 +14482,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\spsri\\Documents\\BibliotecaMariaEduardaSouza\\Views\\Usuario\\editarUsuario.cshtml",
+      "TargetPath": "Views\\Usuario\\editarUsuario.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\spsri\\Documents\\BibliotecaMariaEduardaSouza\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\spsri\\Documents\\BibliotecaMariaEduardaSouza\\Views\\Usuario\\ListaDeUsuarios.cshtml",
+      "TargetPath": "Views\\Usuario\\ListaDeUsuarios.cshtml",
       "FileKind": "mvc"
     }
   ],

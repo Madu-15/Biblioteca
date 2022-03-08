@@ -1,30 +1,69 @@
+using System.Collections.Generic;
+using System.Collections;
+using System.Linq;
+
 namespace Biblioteca.Models
+
+
 {
     public class UsuarioService
     {
-        public void incluirUsuario(Usuario user){
-          
-          using(BibliotecaContext bc = new BibliotecaContext()){
-              
-              bc.Usuarios.Add(user);
-              bc.SaveChanges();
 
-          }
+
+        public void incluirUsuario(Usuario user)
+        {
+
+            using (BibliotecaContext bc = new BibliotecaContext())
+            {
+
+                bc.Usuarios.Add(user);
+                bc.SaveChanges();
+
+            }
         }
 
-        public void editarUsuario(Usuario user){
-             using(BibliotecaContext bc = new BibliotecaContext()){
-              
-              Usuario u = bc.Usuarios.Find(user.id);
+        public void editarUsuario(Usuario user)
+        {
+            using (BibliotecaContext bc = new BibliotecaContext())
+            {
 
-              u.Login = user.Login;
-              u.Nome = user.Nome;
-              u.Senha = user.Senha;
-              u.Tipo = user.Tipo;
-              bc.SaveChanges();
+                Usuario u = bc.Usuarios.Find(user.id);
 
-          }
+                u.Login = user.Login;
+                u.Nome = user.Nome;
+                u.Senha = user.Senha;
+                u.Tipo = user.Tipo;
+                bc.SaveChanges();
+
+            }
+        }
+
+        public void excluirUsuarios(int id)
+        {
+            using (BibliotecaContext bc = new BibliotecaContext())
+            {
+
+                bc.Remove(bc.Usuarios.Find(id));
+                bc.SaveChanges();
+            }
+        }
+
+        public Usuario Listar(int id)
+        {
+            using (BibliotecaContext bc = new BibliotecaContext())
+            {
+                return bc.Usuarios.Find(id);
+            }
+
+        }
+
+        public List<Usuario> Listar(){
+             using (BibliotecaContext bc = new BibliotecaContext())
+            {
+                return bc.Usuarios.ToList();
+            }
+        }
+
         
-        }
     }
 }
