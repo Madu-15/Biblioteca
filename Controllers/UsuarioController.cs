@@ -32,8 +32,10 @@ namespace Biblioteca.Controllers
         public IActionResult editarUsuario(Usuario userEditado){
  
             userEditado.Senha = Criptografo.TextoCriptografado(userEditado.Senha);
-            UsuarioService us = new UsuarioService();
-            us.editarUsuario(userEditado);
+            //UsuarioService us = new UsuarioService();
+           // us.editarUsuario(userEditado);
+
+           new UsuarioService().editarUsuario(userEditado);
 
             return RedirectToAction("ListaDeUsuarios");
         }

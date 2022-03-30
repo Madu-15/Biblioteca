@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Biblioteca.Migrations
 {
-    public partial class CriaUsuario : Migration
+    public partial class Biblioteca : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
